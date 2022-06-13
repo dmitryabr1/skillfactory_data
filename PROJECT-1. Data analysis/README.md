@@ -18,7 +18,7 @@
 ### данные выложены:
 - https://drive.google.com/file/d/1RhOpMBcC83yBMOAVefYxTaVbaxkZDBna/view?usp=sharing
 
-###Вывод
+### Вывод:
 Результат выложены в файле - https://github.com/dmitryabr1/skillfactory_data/blob/main/PROJECT-1.%20Data%20analysis/Project%201_DA.ipynb
 
 :arrow_up:[к оглавлению]()
