@@ -7,7 +7,7 @@
 
 [3. Ссылка на данные](https://drive.google.com/file/d/1RhOpMBcC83yBMOAVefYxTaVbaxkZDBna/view?usp=sharing)
 
-[4. Выводы]()
+[4. Выводы](https://github.com/dmitryabr1/skillfactory_data/tree/main/PROJECT-1.%20Data%20analysis#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4)
 
 ## Разведывательный анализ данных HH.ru.
 :arrow_up:[к оглавлению]()
