@@ -1,11 +1,11 @@
 # Проект. Построение модели прогнозирования стоимости жилья для агенства недвижимости
 
 ## Оглавление 
-[1. Описание проекта](https://lms-cdn.skillfactory.ru/assets/courseware/v1/a343c27bf19f2818067b11f7aad69619/asset-v1:SkillFactory+DST-3.0+28FEB2021+type@asset+block/%D0%91%D1%80%D0%B8%D1%84_%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BA%D0%B5%D0%B9%D1%81%D0%B0__%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C_%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8_%D0%B6%D0%B8%D0%BB%D1%8C%D1%8F_%D0%B4%D0%BB%D1%8F_%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D1%81%D1%82%D0%B2%D0%B0_%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8_.pdf)
+[1. Описание проекта](https://github.com/dmitryabr1/skillfactory_data/blob/main/Project_Estate/%D0%91%D1%80%D0%B8%D1%84_%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BA%D0%B5%D0%B9%D1%81%D0%B0__%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C_%D0%BF%D1%80%D0%BE%D0%B3%D0%BD%D0%BE%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8_%D0%B6%D0%B8%D0%BB%D1%8C%D1%8F_%D0%B4%D0%BB%D1%8F_%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D1%81%D1%82%D0%B2%D0%B0_%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8_.pdf)
 
 [2. Ссылка на данные](https://drive.google.com/file/d/11-ZNNIdcQ7TbT8Y0nsQ3Q0eiYQP__NIW/view)
 
-[3. Выводы](https://github.com/dmitryabr1/skillfactory_data/tree/main/PROJECT-1.%20Data%20analysis#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4)
+[3. Выводы](https://github.com/dmitryabr1/skillfactory_data/tree/main/Project_Estate)
 
 ## Построение модели прогнозирования стоимости жилья для агенства недвижимости.
 :arrow_up:[к оглавлению]()
@@ -48,6 +48,6 @@ ML моделирование
 + RandomForestRegressor на вещественных признаках  R2 = 0.737
 + CatBoost на вещественных и категориальных признаках  R2 = 0.767
 
-Результат выложены в файле - https://github.com/dmitryabr1/skillfactory_data/blob/main/PROJECT-1.%20Data%20analysis/Project%201_DA.ipynb
+Результат выложены в файле - https://github.com/dmitryabr1/skillfactory_data/tree/main/Project_Estate
 
 :arrow_up:[к оглавлению]()
