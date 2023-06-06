@@ -44,9 +44,16 @@ ML моделирование
 Были обучены следующие модели
 + LinearRegression на вещественных и категориальных признаках не стандартизированнх признаках  R2 = 0.576
 + LinearRegression на вещественных и категориальных признаках стандартизированнх признаках  R2 =  0.588
-+ RandomForestRegression-регрессия на вещественных и категориальных признаках, подбор параметра $\alpha$ с помощью RandomSearch  R2 = 0.700
-+ RandomForestRegressor на вещественных признаках  R2 = 0.737
-+ CatBoost на вещественных и категориальных признаках  R2 = 0.767
++ RandomForestRegression-регрессия на вещественных и категориальных признаках, подбор параметра $\alpha$ с помощью RandomSearch  R2 = 0.713
++ RandomForestRegressor на вещественных и категориальных признаках признаках  R2 = 0.737
++ CatBoost на вещественных и категориальных признаках  R2 = 0.773
+
+Реализация web сервиса на FastApi 
+-----------------------
++ Загрузка одного объекта в формате json и получение предсказания цены для него (Смотреть скриншоты в папке /screenshots)
+
+Пример: ```{"status": "for sale", "propertyType": "single-family", "baths": 2.0, "fireplace": 0,"city": "Miami", "sqft": 1396.0, "beds": 3.0, "state": "FL", "stories": "", "PrivatePool": 0, "Heating": "Forced air", "Cooling": 1, "Parking": "Other", "Age": 69.0, "Repaired": 1}
+(Смотреть результат в папке screenshots)
 
 Результат выложены в файле - https://github.com/dmitryabr1/skillfactory_data/tree/main/Project_Estate
 
