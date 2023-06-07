@@ -5,7 +5,7 @@
 
 [2. Ссылка на данные](https://drive.google.com/file/d/11-ZNNIdcQ7TbT8Y0nsQ3Q0eiYQP__NIW/view)
 
-[3. Выводы](https://github.com/dmitryabr1/skillfactory_data/tree/main/Project_Estate)
+[3. Выводы](https://github.com/dmitryabr1/skillfactory_data/blob/main/Project_Estate/README.md#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4)
 
 ## Построение модели прогнозирования стоимости жилья для агенства недвижимости.
 :arrow_up:[к оглавлению]()
