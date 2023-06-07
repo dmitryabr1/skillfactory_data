@@ -46,17 +46,17 @@ ML моделирование
 + LinearRegression на вещественных и категориальных признаках стандартизированнх признаках  R2 =  0.577
 + RandomForestRegressor на вещественных и категориальных признаках признаках  R2 = 0.723
 + RandomForestRegression - регрессия на вещественных и категориальных признаках, подбор параметров с помощью RandomSearch  R2 = 0.737
-+ CatBoost на вещественных и категориальных признаках  R2 = 0.773
++ CatBoost на вещественных и категориальных признаках  R2 = 0.774
 
 Реализация web сервиса на FastApi 
-+ Сервер раелизован в файле main.py
++ Сервер реализован в файле main.py
 + Предобработка данных поступающих после запроса выполнена в файле salling_price_pred.py
 + Интерфейс ввода данных описан в файле index.html
 -----------------------
 + Загрузка одного объекта в формате json и получение предсказания цены для него, загружаем данные:
 Пример: ```{"status": "for sale", "propertyType": "single-family", "baths": 2.0, "fireplace": 0,"city": "Miami", "sqft": 1396.0, "beds": 3.0, "state": "FL", "stories": "", "PrivatePool": 0, "Heating": "Forced air", "Cooling": 1, "Parking": "Other", "Age": 69.0, "Repaired": 1}
 (Смотреть результат в папке screenshots) <br>
-Прогноз цены - {"price":401163.33}
+Прогноз цены - {"price":440159.76}. Target по этому лоту - 495000
 
 Результат выложены в файле - https://github.com/dmitryabr1/skillfactory_data/tree/main/Project_Estate
 
