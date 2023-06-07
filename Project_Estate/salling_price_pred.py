@@ -6,7 +6,7 @@ import sklearn
 def data_processing(sample):
     cat_cols = ['status','city','propertyType','stories','Heating','Parking','state']
     
-    with open('Project_Estate\model\one_hot_enc.pkl', 'rb') as f:
+    with open('Project_Estate/model/one_hot_enc1.pkl', 'rb') as f:
         one_hot_enc = pickle.load(f)
 
     sample_cat = pd.DataFrame(
