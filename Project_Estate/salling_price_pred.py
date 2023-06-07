@@ -6,7 +6,7 @@ import sklearn
 def data_processing(sample):
     cat_cols = ['status','city','propertyType','stories','Heating','Parking','state']
     
-    with open('Project_Estate\model\one_hot_enc.pkl', 'rb') as f:
+    with open('Project_Estate/model/one_hot_enc1.pkl', 'rb') as f:
         one_hot_enc = pickle.load(f)
 
     sample_cat = pd.DataFrame(
@@ -19,7 +19,7 @@ def data_processing(sample):
 
 
 def prediction(sample):
-    with open('Project_Estate\model\Estate_cat.pkl', 'rb') as pkl_file: 
+    with open('Project_Estate/model/Estate_cat.pkl', 'rb') as pkl_file: 
         model = pickle.load(pkl_file)
 
     sample = data_processing(sample)
