@@ -19,7 +19,7 @@ def data_processing(sample):
 
 
 def prediction(sample):
-    with open('Project_Estate\model\Estate_cat.pkl', 'rb') as pkl_file: 
+    with open('Project_Estate/model/Estate_cat.pkl', 'rb') as pkl_file: 
         model = pickle.load(pkl_file)
 
     sample = data_processing(sample)
